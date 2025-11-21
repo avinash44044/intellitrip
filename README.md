@@ -1,5 +1,4 @@
-[![Watch the video](src/assets/thumbnail.png)](https://raw.githubusercontent.com/avinash44044/intellitrip/master/src/assets/intellitrip%20trip%20full%20working%20tutorial.mp4)
-
+[![Watch the demo](https://img.youtube.com/vi/UsspulCANAk/0.jpg)](https://www.youtube.com/watch?v=UsspulCANAk)
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
