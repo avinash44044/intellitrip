@@ -1,0 +1,113 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-emoji {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.logo-text .site-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--white);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Size variations */
+.logo-small .logo-emoji {
+  font-size: 2rem;
+}
+
+.logo-small .logo-text .site-name {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.logo-medium .logo-emoji {
+  font-size: 3rem;
+}
+
+.logo-medium .logo-text .site-name {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.logo-large .logo-emoji {
+  font-size: 4rem;
+}
+
+.logo-large .logo-text .site-name {
+  font-size: 4.5rem;
+  letter-spacing: 4px;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    filter: drop-shadow(0 0 10px rgba(255, 107, 107, 0.6));
+  }
+  to {
+    filter: drop-shadow(0 0 20px rgba(255, 142, 142, 0.8));
+  }
+}
+
+/* Theme variations */
+.logo-dark .logo-text .site-name {
+  color: var(--primary-red);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-light .logo-text .site-name {
+  color: var(--white);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .logo-large .logo-emoji {
+    font-size: 3rem;
+  }
+  
+  .logo-large .logo-text .site-name {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  
+  .logo-medium .logo-emoji {
+    font-size: 2.5rem;
+  }
+  
+  .logo-medium .logo-text .site-name {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-large .logo-emoji {
+    font-size: 2.5rem;
+  }
+  
+  .logo-large .logo-text .site-name {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+  
+  .logo-medium .logo-emoji {
+    font-size: 2rem;
+  }
+  
+  .logo-medium .logo-text .site-name {
+    font-size: 1.3rem;
+  }
+}
