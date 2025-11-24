@@ -1,7 +1,8 @@
-[![Watch the demo](https://img.youtube.com/vi/UsspulCANAk/0.jpg)](https://www.youtube.com/watch?v=UsspulCANAk)
 
+# 🌍 intellitrip – Adaptive Smart Travel Itinerary Generator
 
-# 🌍 intellitrip – Adaptive Smart Travel Itinerary Generator  
+https://github.com/user-attachments/assets/47646894-aff5-4be2-8b1c-6a3d6ef1d4d8
+
 A hybrid **AI + Rule-Based travel planner** that builds fully personalized itineraries using user preferences, TravelDNA scoring, real-time weather, live events, crowd levels, and Google Maps data.
 
 ---
